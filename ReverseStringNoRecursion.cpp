@@ -4,10 +4,6 @@
 
 using namespace std;
 
-//No Recursion is using here. Only Iteration is being used in here
-//In this code, I am using stack.
-//Pushing the chars in the stack and popped it back!
-
 
 void reverse (string &str)
 {
@@ -19,10 +15,7 @@ void reverse (string &str)
     {
         swap(str[begin++], str[end--]);
     }
-    
-    
-
-    
+        
 }
 
 
