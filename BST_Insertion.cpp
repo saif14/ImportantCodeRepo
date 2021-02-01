@@ -24,7 +24,6 @@ node *insert(node *n, int val)
 
         return newNode(val);
     }
-
     else
     {
         if (n->data > val)
