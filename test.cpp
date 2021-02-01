@@ -5,7 +5,6 @@ using namespace std;
 int reverse(int a)
 {
     int out=0;
-    int ten=0;
     while (a>0)
     {
         int temp = a%10;
@@ -13,7 +12,6 @@ int reverse(int a)
         out = out*10;
         out = out+temp;
         a=a/10;
-
     }
 
     return out;
